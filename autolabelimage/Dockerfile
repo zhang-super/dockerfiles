@@ -7,7 +7,6 @@ RUN apt-get install -y iputils-ping
 RUN apt-get install -y vim
 RUN apt-get install -y sudo
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN python -m pip install --upgrade pip
 RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 RUN pip install --upgrade pip
 RUN pip install opencv-python
