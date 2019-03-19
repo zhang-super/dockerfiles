@@ -15,3 +15,4 @@ RUN pip install pillow
 RUN pip install matplotlib
 RUN pip install keras
 RUN pip install dicom
+RUN apt-get install -y cuda
