@@ -12,7 +12,7 @@ RUN python3 -m pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 RUN pip install numpy
-RUN pip install tensorflow-gpu
+RUN pip install tensorflow-gpu==1.12.0
 RUN pip install opencv-python
 RUN pip install lxml
 RUN pip install pillow
