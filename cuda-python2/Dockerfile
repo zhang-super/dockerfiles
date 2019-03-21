@@ -16,6 +16,6 @@ RUN pip install tensorflow-gpu==1.11.0
 RUN pip install opencv-python
 RUN pip install lxml
 RUN pip install pillow
-RUN pip install matplotlib
+# RUN pip install matplotlib
 RUN pip install keras
 RUN pip install dicom
