@@ -18,4 +18,4 @@ RUN pip install lxml
 RUN pip install pillow
 RUN pip install matplotlib==2
 RUN pip install keras
-RUN pip install dicom
+RUN pip install pydicom
