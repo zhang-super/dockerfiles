@@ -11,7 +11,7 @@ RUN yum install -y wget
 RUN yum install -y python2-devel
 RUN yum install -y openssl-devel
 RUN yum install -y zlib-devel
-RUN yum install –y mysql-devel
+#RUN yum install –y mysql-devel
 RUN python -m pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
