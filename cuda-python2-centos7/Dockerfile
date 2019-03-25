@@ -5,6 +5,7 @@ RUN yum install -y net-tools
 RUN yum install -y iputils
 RUN yum install -y vim
 RUN yum install -y sudo
+RUN yum install -y epel-release
 RUN yum install -y python-pip
 RUN yum install -y wget
 RUN python -m pip install --upgrade pip
