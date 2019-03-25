@@ -2,7 +2,7 @@ FROM nvidia/cuda:9.0-cudnn7-devel-centos7
 RUN yum -y update
 RUN yum install -y openssh-server
 RUN yum install -y net-tools
-RUN yum install -y iputils-ping
+RUN yum install -y iputils
 RUN yum install -y vim
 RUN yum install -y sudo
 RUN yum install -y python-pip
