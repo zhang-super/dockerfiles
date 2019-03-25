@@ -8,7 +8,7 @@ RUN yum install -y sudo
 RUN yum install -y epel-release
 RUN yum install -y python-pip
 RUN yum install -y wget
-RUN yum install python2-devel
+RUN yum install -y python2-devel
 RUN yum install -y openssl-devel
 RUN yum install -y zlib-devel
 RUN yum install –y mysql-devel
